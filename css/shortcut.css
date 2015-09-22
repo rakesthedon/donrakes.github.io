@@ -5,19 +5,20 @@
 	background-image: none;
 	opacity: 1;
 }
+.titleGreen,
 .gridGreen:hover{
 	background-size: 65px;
     background-repeat: no-repeat;
-	background-image: url("Logos/contact.png");
+	background-image: url("../Logos/contact.png");
 	background-position: right bottom;
 	opacity: 1;
 	background-color: #009933;
 }
-
+.titleBlue,
 .gridBlue:hover{
 	background-size: 65px;
     background-repeat: no-repeat;
-	background-image: url("Logos/cv.png");
+	background-image: url("../Logos/cv.png");
 	background-position: right bottom;
 	opacity: 1;
 	background-color: #003399;
@@ -31,7 +32,7 @@
 	
 	background-size: 65px;
     background-repeat: no-repeat;
-	background-image: url("Logos/cpp.png");
+	background-image: url("../Logos/cpp.png");
 	background-position: right bottom;
 	opacity: 1;
 	background-color: #FF9900;
@@ -55,4 +56,9 @@
 .title > a:hover,
 a.title:hover{
 	color:black;
+}
+
+.pageTitle{
+	height:50px;
+	line-height: 50px;
 }
