@@ -1,0 +1,58 @@
+.gridGreen,.gridBlue,.gridRed,.gridYellow{
+	background-size: 50px;
+    background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: none;
+	opacity: 1;
+}
+.gridGreen:hover{
+	background-size: 65px;
+    background-repeat: no-repeat;
+	background-image: url("Logos/contact.png");
+	background-position: right bottom;
+	opacity: 1;
+	background-color: #009933;
+}
+
+.gridBlue:hover{
+	background-size: 65px;
+    background-repeat: no-repeat;
+	background-image: url("Logos/cv.png");
+	background-position: right bottom;
+	opacity: 1;
+	background-color: #003399;
+}
+
+.gridRed:hover{
+	background-color: #B20000;
+}
+
+.gridYellow:hover{
+	
+	background-size: 65px;
+    background-repeat: no-repeat;
+	background-image: url("Logos/cpp.png");
+	background-position: right bottom;
+	opacity: 1;
+	background-color: #FF9900;
+}
+
+.title,
+.title > a,
+.title > a:visited{
+	
+	margin: 0px;
+	padding : 0px;
+	float:left;
+	color:white;
+	text-decoration: none;
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	font-size:x-large;
+	transition:color 0.3s,ease-in-out;
+}
+.title > a:hover,
+a.title:hover{
+	color:black;
+}

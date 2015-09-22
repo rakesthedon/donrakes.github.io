@@ -1,0 +1,76 @@
+
+body {
+	
+	background-color: #111111;
+	color : white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0%;
+}
+
+#header{
+	
+	border : solid white 1px;
+	text-align: center;
+	width:1000px;
+	height:250px;
+	margin: 20%;
+}
+
+#title{
+	border : solid white 1px;
+	width: 100%;
+}
+
+#subTitle{
+	font-size: small;
+}
+
+.gridMenuItem{
+	transition: all 0.3s ease-in-out;
+	list-style-type: none;
+	text-align: center;
+	width:25%;
+    height:50px;
+	line-height: 50px;
+	display: table;
+	float : left;
+	
+	background-size: 25%;
+	font-size:medium;
+}
+
+.gridMenuItem:hover {
+	
+	
+	color:black;
+	transform: scale(0.9);
+	z-index: 1;
+}
+
+.gridMenuItem:hover,
+.gridMenuItem > a:hover {
+	
+	
+	color:black;
+	z-index: 1;
+}
+
+.gridMenuItem > a {
+	
+	color:white;
+	display:block;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	width:100%;
+    height:100%;
+	opacity: 1;
+}
+
+
+
+
+#debug{
+	color:green;
+	
+	font-size: large;
+}

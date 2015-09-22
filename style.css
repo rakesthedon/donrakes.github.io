@@ -1,0 +1,164 @@
+
+body {
+	
+	background-color: #111111;
+	color : white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	margin:0% 10% 0% 10%;
+	padding : 0px;
+	
+}
+
+#header{
+	position:fixed;
+	top: 0px;
+	height: 50px;
+	width: 1000px;
+	background-color: darkgrey;
+	font-size: x-large;
+}
+
+#content{
+	margin : 100px 0% 5% 0%;
+	width: 1000px;
+}
+
+#CV{
+}
+
+
+
+.menu{
+	
+	margin : 0px;
+	padding : 0px;
+}
+#menu{
+	margin:0px;
+	padding : 0px;
+	height: 100%;
+	float: right;
+}
+
+.gridMenuItem{
+	
+	text-align: center;
+	padding : 0px;
+	margin:0px 5px 0px 0px;
+	transition: all 0.3s ease-in-out;
+	list-style-type: none;
+	text-align: center;
+	background-size: 25%;
+	line-height: 50px;
+	float : left;
+	width :130px;
+	height: 50px;
+}
+
+.gridMenuItem:hover {
+	
+	
+	color:black;
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+.gridMenuItem:hover,
+.gridMenuItem > a:hover {
+	
+	
+	color:black;
+	z-index: 1;
+}
+
+.gridMenuItem > a {
+	
+	color:white;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	opacity: 1;
+	width : 115px;
+	height : 50px;
+}
+
+td.tag{
+	color: darkgrey;
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	text-align: left;
+}
+
+td.info{
+	color:white;
+	transition: all 0.3s ease-in-out;
+	font-size: small;	
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	text-align: justify;
+	
+}
+
+td.info:target{
+	color:red;
+}
+
+a.section{
+	color:white;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding : 5px;
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+
+a.section{
+	color:white;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding : 5px;
+	padding-right: 0;
+	padding-left: 5px;
+	
+	transition : all 0.5s ease-in-out;
+}
+
+
+a.section:hover{
+	
+	color:black;
+	background-color: darkgrey;
+	font-weight: 900;
+}
+
+.contentSection{
+	
+}
+
+a + div.contentSection{
+	color:white;
+	overflow: hidden;
+	transition: all 0.75s ease-in-out;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+
+a + div.contentSection:target{
+	color:white;
+	height: 20em;
+	padding: 20px;
+}
+a + div.contentSection:not(target){
+	color:white;
+	height: 0;
+	padding: 0px;
+	padding-left: 20px;
+	padding-right: 0px;
+}
